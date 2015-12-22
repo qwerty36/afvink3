@@ -1,0 +1,6 @@
+Hoe kun je een stack gebruiken om te checken of de haakjes in een rekenkundige
+expressie goed zijn?
+
+
+Bij het vinden van een opening dmv haakjes push je het naar de stack, en bij het vinden van een sluiting dmv haakjes ook.
+na afloop kan er worden gekeken of er in de stack beide de opening en de sluiting zitten, zo niet, dan is de code niet correct.

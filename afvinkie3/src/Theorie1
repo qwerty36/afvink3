@@ -1,0 +1,65 @@
+Geef per stap aan hoe de stack eruit ziet bij het uitvoeren van de volgende
+operaties - we beginnen met een lege stack: push(5), push(3), pop(), push(2),
+push(8), pop(), pop(), push(9), push(1)
+
+
+
+
+|     |
+|     |
+|     |
+|_____|
+
+
+|     |
+|     |
+|     |
+|__5__|
+
+
+|     |
+|     |
+|  3  |
+|__5__|
+
+
+|     |
+|     |
+|     |
+|__5__|
+
+
+|     |
+|     |
+|  2  |
+|__5__|
+
+|     |
+|  8  |
+|  2  |
+|__5__|
+
+
+|     |
+|     |
+|  2  |
+|__5__|
+
+
+
+|     |
+|     |
+|     |
+|__5__|
+
+
+|     |
+|     |
+|  9  |
+|__5__|
+
+
+|     |
+|  1  |
+|  9  |
+|__5__|
